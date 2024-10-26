@@ -1,0 +1,214 @@
+body {
+    background-image: url(https://wallpaper.forfun.com/fetch/f3/f34497e9ebb662c05c7dcad9a2604c43.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.detail-body {
+    width: 100%;
+    min-height: 700px;
+}
+.detail-main {
+    width: 100%;
+    height: 100%;
+}
+.detail-container {
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 100%;
+}
+.detail-frame {
+    width: 50%;
+    padding: 30px
+}
+.shopping-cart-detail-frame {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 15px
+}
+.overlay-edit {
+    border-radius: 4px;
+    box-shadow: 1px 2px 10px 0px black;
+    /* background: #3d4d5d; */
+    background: linear-gradient(90deg, rgba(61,77,93,0.5) 0%, rgba(61,77,93,1) 60%, rgba(61,77,93,1) 100%);
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.info-detail {
+    width: 60%;
+    margin-bottom: 24px;
+}
+.title-detail {
+}
+.title-span {
+    font-size: 32px;
+    font-weight: 400;
+    color: #faffff;
+    padding-left: 32px;
+}
+.no-product {
+    color: #faffff;
+font-size: 48px;
+font-weight: 600;
+}
+
+.product-frame {
+    z-index: 99;
+    width: 100%;
+    min-height: 300px;
+}
+.img-product {
+}
+.img-product-child {
+    width: 350px;
+    height: 200px;
+}
+.img-shopping-cart-child {
+    width: 350px;
+    height: 200px;
+}
+
+
+.description-product {
+    margin-top: 15px;
+    font-size: 14px;
+    margin-left: 20px;
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+    color: #f8fcff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box; 
+   -webkit-line-clamp: 12;
+   -webkit-box-orient: vertical;
+}
+.price-product {
+    font-weight: 500;
+    color: #9dcd53;
+    font-size: 24px;
+}
+.category-product {
+    margin-top: 12px;
+}
+.name-category-product {
+    background-color: #666468;
+    color: #dee0e4;
+    padding: 2px 10px;
+    border-radius: 2px;
+    font-size: 12px;
+    transition: 0.25s ease-in-out;
+}
+.name-category-product:hover {
+    cursor: pointer;
+    background-color: #7f7c81;
+    color: #f4f5f7;
+    transition: 0.25s ease-in-out;
+}
+.buy-product-edit {
+    background-color: #296ed6;
+    color:#bdddfc;
+    margin-right: 8px;
+    width: 60px;
+    transition: 0.25s ease-in-out;
+}
+.addToCart-edit {
+    background-color: #5b8d1c;
+    color: #ecffbd;
+    transition: 0.25s ease-in-out;
+}
+.addToCart-edit:hover, .edit-action-shopping-cart:hover {
+    background-color: #69992f;
+    color: #ffffff;
+    transition: 0.25s ease-in-out;
+}
+.buy-product-edit:hover {
+    background-color: #4888e7;
+    color:#ffffff;
+    transition: 0.25s ease-in-out;
+}
+.detail-right {
+    flex-direction: column;
+    justify-content: space-between;
+}
+.border-action {
+    font-weight: 400;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+.shopping-cart-frame {
+    z-index: 99;
+    width: 100%;
+}
+.shopping-cart-detail {
+    margin: 12px 0 0 12px;
+    width: 40%;
+}
+.name-product-shopping-cart {
+    padding: 4px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500; 
+}
+.shopping-cart-category {
+    margin-left: 4px;
+}
+.owner-product-shopping-cart {
+    font-size: 14px;
+    font-style: italic;
+    color: #adb3bb;
+}
+.action-product-shopping-cart {
+    margin: 24px 0 0 0 ;
+    width: 20%;
+}
+.edit-action-shopping-cart {
+    background-color: #5b8d1c;
+    color: #ecffbd;
+    transition: 0.25s ease-in-out;
+    padding: 4px 12px;
+}
+.frame-shopping {
+    margin-left: 23%;
+    width: 100%;
+}
+.info-total{
+    padding: 10px;
+    top: 80px;
+    width: 40%;
+    height: 100px;
+    right: 100px;
+}
+.frame-div-shopping {
+    width: 100%;
+}
+.action-total-product {
+
+}
+.edit-total-action {
+    width: 95%;
+}
+.name-total {
+    font-size: 18px;
+}
+.price-total {
+    font-weight: 500;
+    font-size: 24px;
+}
+.total-price {
+    line-height: 40px;
+    height: 40px;
+    margin: 0 12px;
+    color: #fff;
+}
+.info-behide-overay {
+    z-index: 1;
+}
+.edit-overlay-total {
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(61, 77, 93, 0.8) 0%, rgba(61, 77, 93, 0.8) 60%, rgba(61, 77, 93, 0.8) 100%);
+}
